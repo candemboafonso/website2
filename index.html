@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css file-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/
+    bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <!--font awesome cdn-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/
+    font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--/fonts.google.com -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <!--fonts used for my porfolio-->
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--my reference-->
+    <!--https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=9145s-->
+    <!--https://www.youtube.com/watch?v=HybYcEY6hZ0 -->
+    <!--https://unsplash.com/-->
+    <!--https://www.google.com/search?q=color+piker&rlz=1C1CHBF_en-GBGB868GB868&oq=color+piker&aqs=chrome..69i57.6974j0j8&sourceid=chrome&ie=UTF-8-->
+    <!--End of references-->
+    
+    <title>My portfolio </title>
+</head>
+<body>
+
+<!-- My home section-->
+    <section class="container-fluid banner" id="home">
+        <div class="row">
+            <div class="nav2" id="nav2">
+                <i class="fa fa-close" onclick="navclose();"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+
+                
+            </div>
+            <div class="col-md-12 navigation-bar navbar" id="navigation-bar">
+                <div class="logo navbar-brand">
+                    <a href="index.html">
+                        
+                    </a>
+                </div>
+                <div class="homeimages">
+                <img src="images/logo333.PNG" alt= picture6/> 
+                </div>
+            
+                
+               
+                <div class="menu-text"  onclick="navopen();">
+                    <p class="menu-heading">MENU</p>
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        <!--start of age challege-->
+            <div class="container-1">
+                <h2>Have fun tell me which year have you born?</h2>
+                <div class="flex-box-container-1">
+                <div>
+                      <button class="btn btn-primary" onclick="ageInDays()">Click me.......</button>
+                </div>
+       
+                <div>
+                      <button class="btn btn-danger" onclick="reset()">Reset here</button>
+                </div>
+           
+               </div>
+       
+            <div class="flex-box-container-1">
+              <div id="flex-box-result"></div>
+       
+              
+            </div>   
+           </div>
+
+           <!--end of age challenge-->
+            <div class="col-md-12 d-flex info-banner">
+              <div class="col-md-10 offset-md-1 info-heading-text">
+        
+                  <h1>I' am Afonso</h1>
+
+                  
+
+<!--slider images-->
+                  <div class="rounded">
+                    <img src="images/mo pida.jpg.png" alt= picture1/>
+                  </div>
+<!--slider end-->
+                  
+<!--social media-->
+              </div>
+              <div class="col-md-1 social-icons">
+                  <a href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                  <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a href="https://codepen.io/"><i class="fa fa-codepen"></i></a>
+                  <a href="https://github.com/"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+           <a href="#" class="col-md-2 offset-md-9 angle">
+               <i class="fa fa-angle-down"></i>
+               <h2>SCROLL DOWN</h2>
+           </a>
+        </div>
+    </section>
+
+<!--My portfolio-->
+<section class="container portfolio" id="portfolio">
+    <div class="row">
+        <div class="col-md-12 portfolio-section">
+            <!--Poorfilio images with my name initial as my Logo-->
+            <div class="portfolioimages">
+                <img src="images/logo333.PNG" alt= picture5/>
+            </div>
+            <h1 class="text-center portfolio-heading">PORTFOLIO</h1>
+            <p class="text-center portfolio-subheading">
+                HERE ARE MY PORTFOLIO 
+            </p>
+        </div>
+<!-- What I did was I used the portfolio code from the assignment1 I did a bit change-->
+        <div class="col-md-12 d-flex">
+            <div class="container">
+                <hr>
+                <div class="gallery">
+                  <div class="gallery-item">
+                    <img src="images/photo6.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Success</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo9.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Progress</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo10.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Motivation</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo5.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Ambition</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images//photo4.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Inspiration</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/University.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Dream</div>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+        </div>
+    </div>
+</section>
+<!--End of Portfolio Section-->
+<!--contact section-->
+<section class="container-fluid contact" id="contact">
+    <div class="row">
+        <div class="col-md-12 contact-heading">
+            <h1 class="contact-heading-title text-center">CONTACT ME</h1>
+            <p class="contact-heading-subtitle text-center">
+             Hey guys in order to tell me about my portfolio project and what changes you guys <br/>
+             want to see in my portfolio project, please fill the following form and contact.
+             my job and obligation to listen from you.
+            </p>
+        </div>
+        <!--contact image with my name initial as my Logo-->
+        <div class="contactimages">
+            <img src="images/logo333.PNG" alt= picture2/> 
+        </div>
+        <div class="col-md-6 contact-form offset-md-3">
+            <form id="form-contact">
+                <div class="form-group text-center">
+                    <input type="text" name="name" placeholder="Enter Your Name" required="required" />
+                    <input type="email" name="email" placeholder="Enter Your Email" required="required" />
+
+
+                </div>
+
+                <div class="form-group text-center subject">
+                    <input type="text" name="subject" placeholder="Enter the subject"
+                     required="required" />
+
+                </div>
+
+                <div class="form-group text-center">
+                    <textarea name="comment"  placeholder="Enter the comment" required
+                    ="required"></textarea>
+
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" name="submit-btn" value="SEND" form="
+                    form-contact" class="btn btn-primary"/>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+<!--End of contact Section-->
+<!--cv section-->
+<section class="container-fluid cv" id="cv">
+    <div class="row">
+        <div class="col-md-12 cv-section">
+            <h2 class="text-center cv-heading">CV</h2>
+            
+                <h1>HERE ARE MY CV</h1>
+        
+         <!--second cv step with nine grid sections-->         
+     </div>                
+     </div> 
+     <div class="container-grid">
+     <div class="section1">
+        <div class="rounded">
+<!--I thought maybe is a great idea add a picture on my CV page -->
+        <img src="images/mo pida.jpg.png" alt= picture3/>
+          </div>
+ <!--Poorfilio images with my name initial as my Logo-->
+          <div class="rounded3">
+              <img src="images/logo333.PNG" alt= picture4/>
+          </div>
+         <h3>Candembo Da Gama Afonso</h3>
+         <h3>Web Designer</h3>
+        
+     </div>
+<!--I created my CV in four section with grid-template-columns -->
+     <div class="section2">
+         <h2>EXPERIENCE</h2>
+         <h3>Senior Web Developer, Bristol Alison.UK</h3>
+         <h3>2010-2011</h3>
+         
+             <p>1. Work as aproctive and positive team member to design code, test and report debug operations</p>
+             <p>2. Successfully indetified diagnosed and fixed website problem</p>
+             <p>3. Help to achieve a consistent look and visual theme across the website</p>     
+     </div>
+     
+     <div class="section4">
+         <hr>
+         <h2>EDUCATION</h2>
+         <hr>
+         <P>BTC 2012-2013</P>
+         <P>Level 2 in Computer Networking / Highbury College Portsmouth UK</P>
+         <P>Web design 2014-2015</P>
+         <p>Master in Computer Design / University of Northampton UK</p>
+         <P>2016-1017 Bachelor in Web Design / Portsmouth University uk </P>
+         
+         
+     </div>
+     <div class="section5">
+         <h2>EXPERIENCE</h2>
+         <h3>Senior Web Developer, London logistic .UK</h3>
+         <h3>2012-2013</h3>
+         <p>1. Successfully indentified diagnosed and fixed website</p>
+         <p>2. Write well designed, testable, efficient code by using best software development practices</p>
+         <p>3. Integrate data from various back-end services and database</p>
+     </div>
+     
+    </div>
+
+     
+</section>
+<!--End of the vc grid sections-->
+ <section class="container-fluid footer" id="footer">
+<!--start of social-icons1 for the footer-->
+    <div class="col-md-1 social-icons1">
+        <a href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="https://codepen.io/"><i class="fa fa-codepen"></i></a>
+        <a href="https://github.com/"><i class="fa fa-github"></i></a>
+    </div>
+<!--start the contact information on the footer-->
+     <div class="row">
+         <div class="col-md-12 footer-section"></div>
+     <footer>
+         <div class="contact-info">
+             <div class="mycard">
+                 <i class="card-icon fa fa-envelope"></i>
+                 <p>Candemboafonso@gmail.com</p>
+             </div>
+
+             <div class="mycard">
+                 <i class="card-icon fas fa-phone"></i>
+                 <p>074258909796573</p>
+             </div>
+             
+
+             <div class="mycard">
+                 <i class="card-icon fa fa-envelope"></i>
+                 <p>Candembodagamaafonso@gmail.com</p>
+                 <p>Portmouth, UK</p>
+<!--End of contact information on the footer-->
+             </div>
+         </div>
+        
+       
+     </footer>
+ </section>
+
+<!--java script-->
+<script src="script.js"></script>
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css file-->
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/
+    bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <!--font awesome cdn-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/
+    font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--/fonts.google.com -->
+    <link href="https://fonts.googleapis.com/css?family=Baloo+2&display=swap" rel="stylesheet">
+    <!--fonts used for my porfolio-->
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <!--my reference-->
+    <!--https://www.youtube.com/watch?v=Qqx_wzMmFeA&t=9145s-->
+    <!--https://www.youtube.com/watch?v=HybYcEY6hZ0 -->
+    <!--https://unsplash.com/-->
+    <!--https://www.google.com/search?q=color+piker&rlz=1C1CHBF_en-GBGB868GB868&oq=color+piker&aqs=chrome..69i57.6974j0j8&sourceid=chrome&ie=UTF-8-->
+    <!--End of references-->
+    
+    <title>My portfolio </title>
+</head>
+<body>
+
+<!-- My home section-->
+    <section class="container-fluid banner" id="home">
+        <div class="row">
+            <div class="nav2" id="nav2">
+                <i class="fa fa-close" onclick="navclose();"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#cv">CV</a></li>
+                </ul>
+
+                
+            </div>
+            <div class="col-md-12 navigation-bar navbar" id="navigation-bar">
+                <div class="logo navbar-brand">
+                    <a href="index.html">
+                        
+                    </a>
+                </div>
+                <div class="homeimages">
+                <img src="images/logo333.PNG" alt= picture6/> 
+                </div>
+            
+                
+               
+                <div class="menu-text"  onclick="navopen();">
+                    <p class="menu-heading">MENU</p>
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        <!--start of age challege-->
+            <div class="container-1">
+                <h2>Have fun tell me which year have you born?</h2>
+                <div class="flex-box-container-1">
+                <div>
+                      <button class="btn btn-primary" onclick="ageInDays()">Click me.......</button>
+                </div>
+       
+                <div>
+                      <button class="btn btn-danger" onclick="reset()">Reset here</button>
+                </div>
+           
+               </div>
+       
+            <div class="flex-box-container-1">
+              <div id="flex-box-result"></div>
+       
+              
+            </div>   
+           </div>
+
+           <!--end of age challenge-->
+            <div class="col-md-12 d-flex info-banner">
+              <div class="col-md-10 offset-md-1 info-heading-text">
+        
+                  <h1>I' am Afonso</h1>
+
+                  
+
+<!--slider images-->
+                  <div class="rounded">
+                    <img src="images/mo pida.jpg.png" alt= picture1/>
+                  </div>
+<!--slider end-->
+                  
+<!--social media-->
+              </div>
+              <div class="col-md-1 social-icons">
+                  <a href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                  <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+                  <a href="https://codepen.io/"><i class="fa fa-codepen"></i></a>
+                  <a href="https://github.com/"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+           <a href="#" class="col-md-2 offset-md-9 angle">
+               <i class="fa fa-angle-down"></i>
+               <h2>SCROLL DOWN</h2>
+           </a>
+        </div>
+    </section>
+
+<!--My portfolio-->
+<section class="container portfolio" id="portfolio">
+    <div class="row">
+        <div class="col-md-12 portfolio-section">
+            <!--Poorfilio images with my name initial as my Logo-->
+            <div class="portfolioimages">
+                <img src="images/logo333.PNG" alt= picture5/>
+            </div>
+            <h1 class="text-center portfolio-heading">PORTFOLIO</h1>
+            <p class="text-center portfolio-subheading">
+                HERE ARE MY PORTFOLIO 
+            </p>
+        </div>
+<!-- What I did was I used the portfolio code from the assignment1 I did a bit change-->
+        <div class="col-md-12 d-flex">
+            <div class="container">
+                <hr>
+                <div class="gallery">
+                  <div class="gallery-item">
+                    <img src="images/photo6.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Success</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo9.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Progress</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo10.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Motivation</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/photo5.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Ambition</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images//photo4.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Inspiration</div>
+                    </div>
+                  </div>
+              
+                  <div class="gallery-item">
+                    <img src="images/University.jpg" alt="Placeholder Image" class="image">
+              
+                    <div class="middle">
+                      <div class="text">Dream</div>
+                    </div>
+                  </div>
+                </div>
+              </div>              
+        </div>
+    </div>
+</section>
+<!--End of Portfolio Section-->
+<!--contact section-->
+<section class="container-fluid contact" id="contact">
+    <div class="row">
+        <div class="col-md-12 contact-heading">
+            <h1 class="contact-heading-title text-center">CONTACT ME</h1>
+            <p class="contact-heading-subtitle text-center">
+             Hey guys in order to tell me about my portfolio project and what changes you guys <br/>
+             want to see in my portfolio project, please fill the following form and contact.
+             my job and obligation to listen from you.
+            </p>
+        </div>
+        <!--contact image with my name initial as my Logo-->
+        <div class="contactimages">
+            <img src="images/logo333.PNG" alt= picture2/> 
+        </div>
+        <div class="col-md-6 contact-form offset-md-3">
+            <form id="form-contact">
+                <div class="form-group text-center">
+                    <input type="text" name="name" placeholder="Enter Your Name" required="required" />
+                    <input type="email" name="email" placeholder="Enter Your Email" required="required" />
+
+
+                </div>
+
+                <div class="form-group text-center subject">
+                    <input type="text" name="subject" placeholder="Enter the subject"
+                     required="required" />
+
+                </div>
+
+                <div class="form-group text-center">
+                    <textarea name="comment"  placeholder="Enter the comment" required
+                    ="required"></textarea>
+
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" name="submit-btn" value="SEND" form="
+                    form-contact" class="btn btn-primary"/>
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+</section>
+<!--End of contact Section-->
+<!--cv section-->
+<section class="container-fluid cv" id="cv">
+    <div class="row">
+        <div class="col-md-12 cv-section">
+            <h2 class="text-center cv-heading">CV</h2>
+            
+                <h1>HERE ARE MY CV</h1>
+        
+         <!--second cv step with nine grid sections-->         
+     </div>                
+     </div> 
+     <div class="container-grid">
+     <div class="section1">
+        <div class="rounded">
+<!--I thought maybe is a great idea add a picture on my CV page -->
+        <img src="images/mo pida.jpg.png" alt= picture3/>
+          </div>
+ <!--Poorfilio images with my name initial as my Logo-->
+          <div class="rounded3">
+              <img src="images/logo333.PNG" alt= picture4/>
+          </div>
+         <h3>Candembo Da Gama Afonso</h3>
+         <h3>Web Designer</h3>
+        
+     </div>
+<!--I created my CV in four section with grid-template-columns -->
+     <div class="section2">
+         <h2>EXPERIENCE</h2>
+         <h3>Senior Web Developer, Bristol Alison.UK</h3>
+         <h3>2010-2011</h3>
+         
+             <p>1. Work as aproctive and positive team member to design code, test and report debug operations</p>
+             <p>2. Successfully indetified diagnosed and fixed website problem</p>
+             <p>3. Help to achieve a consistent look and visual theme across the website</p>     
+     </div>
+     
+     <div class="section4">
+         <hr>
+         <h2>EDUCATION</h2>
+         <hr>
+         <P>BTC 2012-2013</P>
+         <P>Level 2 in Computer Networking / Highbury College Portsmouth UK</P>
+         <P>Web design 2014-2015</P>
+         <p>Master in Computer Design / University of Northampton UK</p>
+         <P>2016-1017 Bachelor in Web Design / Portsmouth University uk </P>
+         
+         
+     </div>
+     <div class="section5">
+         <h2>EXPERIENCE</h2>
+         <h3>Senior Web Developer, London logistic .UK</h3>
+         <h3>2012-2013</h3>
+         <p>1. Successfully indentified diagnosed and fixed website</p>
+         <p>2. Write well designed, testable, efficient code by using best software development practices</p>
+         <p>3. Integrate data from various back-end services and database</p>
+     </div>
+     
+    </div>
+
+     
+</section>
+<!--End of the vc grid sections-->
+ <section class="container-fluid footer" id="footer">
+<!--start of social-icons1 for the footer-->
+    <div class="col-md-1 social-icons1">
+        <a href="https://en-gb.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+        <a href="https://codepen.io/"><i class="fa fa-codepen"></i></a>
+        <a href="https://github.com/"><i class="fa fa-github"></i></a>
+    </div>
+<!--start the contact information on the footer-->
+     <div class="row">
+         <div class="col-md-12 footer-section"></div>
+     <footer>
+         <div class="contact-info">
+             <div class="mycard">
+                 <i class="card-icon fa fa-envelope"></i>
+                 <p>Candemboafonso@gmail.com</p>
+             </div>
+
+             <div class="mycard">
+                 <i class="card-icon fas fa-phone"></i>
+                 <p>074258909796573</p>
+             </div>
+             
+
+             <div class="mycard">
+                 <i class="card-icon fa fa-envelope"></i>
+                 <p>Candembodagamaafonso@gmail.com</p>
+                 <p>Portmouth, UK</p>
+<!--End of contact information on the footer-->
+             </div>
+         </div>
+        
+       
+     </footer>
+ </section>
+
+<!--java script-->
+<script src="script.js"></script>
+</body>
+
+</html>

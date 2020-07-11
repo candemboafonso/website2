@@ -1,0 +1,1607 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#fff;
+    
+}
+/* start of challenge topic*/
+.container-1{
+
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 25%;
+    border:2px solid #2ecc71
+}
+
+
+
+    
+    
+    
+
+
+
+
+.banner .navigation-bar{
+    position: relative;
+    padding:2px 0;
+    top: 2%;
+
+}
+
+.banner .navigation-bar .logo {
+    position: relative;
+    margin-left: 10%;
+    font-size: 2.2em;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.banner .navigation-bar .logo a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.5;
+}
+
+.banner .navigation-bar .logo a span{
+    color: #2ecc71;
+}
+
+.banner .navigation-bar .menu-text{
+    margin-right: 10%;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+
+.banner .navigation-bar .menu-text .menu-heading{
+    font-size: 1.2;
+    font-weight: 500;
+    margin-top: 40%;
+    margin-right: 20%;
+    color: #2ecc71;
+}
+
+.banner .navigation-bar .menu-text:hover .menu-heading{
+    color: #fff;
+}
+
+.banner .navigation-bar .menu-text .menu-heading i{
+    font-size: 1.5em;
+    
+}
+
+.banner .info-banner{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    
+}
+
+.banner .info-banner .info-heading-text h2{
+font-size: 1.5em;
+font-weight: 600;
+color: #444;
+font-family: 'Baloo 2', cursive;
+}
+
+.banner .info-banner .info-heading-text h1{
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    }
+
+.banner .info-banner .buttons{
+    margin-top: 2%;
+
+}
+
+/*.banner .info-banner .buttons a{
+color: #2ecc71;
+font-size: 1.2em;
+border: 2px solid #2ecc71;
+border-radius: 0;
+padding: 8px 13px;
+margin: 0 0.5%;
+font-weight: 550;
+transition: 0.2s ease-in-out;
+
+}
+
+.banner .info-banner .buttons a:nth-child(2),
+.banner .info-banner .buttons a:nth-child(1):hover{
+    background: #290d5c;
+    color:#2ecc71;
+
+}
+*/
+.banner .info-banner .social-icons{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2em;
+
+}
+
+.banner .info-banner .social-icons a{
+    text-decoration: none;
+    color: #2ecc71;
+    transition: 0.2s linear;
+}
+
+.banner .info-banner .social-icons a:hover{
+    color:#fff;
+}
+
+.banner .angle{
+    position: absolute;
+    bottom: 0;
+    border-right: 3px solid #2ecc71;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.banner .angle h2{
+    font-size: 1.2em;
+    margin-top: -15px;
+    margin-right: -10px;
+    color: #2ecc71;
+}
+
+.banner .angle i{
+  font-size: 1.7em;
+  margin-left: 7px;
+  color: #fff;
+}
+
+.banner .nav2{
+    position: fixed;
+    top: 0;
+    background: #444;
+    color: #290d5c;
+    height: 100%;
+    width: 300px;
+    z-index: 99999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+    right: -100%;
+}
+
+.banner .nav2 i{
+    cursor: pointer;
+    color: #2ecc71;
+    font-size: 1.5em;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+.banner .nav2 i:hover{
+color: #fff;
+}
+
+.banner .nav2 ul li{
+    list-style: none;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2ecc71;
+}
+
+.banner .nav2 ul li a{
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+.banner .nav2 ul li a:hover{
+    color: #fff;
+}
+
+/*portfolio----------------section*/
+
+:root {
+    font-size: 75.5%;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Osvald', sans serif;
+    color: #3974b79d;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rcm;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0,1);
+}
+.container {
+    width: 96rem;
+    margin: 2rem auto;
+}
+.gallery-item {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: all.3s;
+    overflow: hidden;
+    position: relative;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+.middle { 
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.gallery-item:hover .image {
+    filter: grayscale(1);
+}
+.gallery-item:hover .middle {
+    opacity: 1;
+}
+.gallery-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0)
+}
+.text {
+    color:  #290d5c;
+    font-size: 1.1cm;
+    padding: 16px 32px;
+    font-family: 'Faster One', cursive;
+}
+
+/*the idea is to make my gallery look great*/
+.gallery-item:hover{
+    box-shadow: 0px 15px 30px rgb(15, 216, 8);
+}
+
+/*the idea is to make my wellcome look great*/
+.navbar-brand:hover{
+    box-shadow: 0px 10px 15px rgb(37, 233, 135); 
+}
+
+/*contact section*/
+#contact{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url('images/cv.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#contact .contact-heading{
+   margin-top: 1%;
+}
+
+#contact .contact-heading p{
+    margin-top: 1%;
+    font-size: 1.3em;
+    font-family: 'Baloo 2', cursive;
+}
+
+#contact .contact-heading h1{
+color: #2ecc71;
+font-family: 'Faster One', cursive;
+font-size: 2.3em;
+}
+
+#portfolio .portfolio-section h1{
+color: #2ecc71;
+font-family: 'Faster One', cursive;
+font-size: 2.3em;
+}
+
+#portfolio .portfolio-section p{
+    color: #290d5c;
+    font-family: 'Faster One', cursive;
+    font-size: 2.3em;
+}
+
+.contact{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#contact .contact-form{
+    margin-top: 3%;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"]{
+    -webkit-appearance:none !important;
+    background: transparent;
+    border:2px solid #fff;
+    padding: 2px 5px;
+    height: 30px;
+    width: 600px;
+    margin-top: 1%;
+    color: #fff;
+    font-size: 1.3em;
+    
+}
+
+#contact .contact-form input[type="text"]::placeholder,
+#contact .contact-form input[type="email"]::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.89em;
+}
+
+#contact .contact-form .subject input{
+    width: 600px;
+}
+
+
+#contact .contact-form textarea{
+    -webkit-appearance:none !important;
+    background: transparent;
+    border:2px solid #fff;
+    padding: 2px 5px;
+    height: 180px;
+    width: 600px;
+    margin-top: 1%;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#contact .contact-form textarea::placeholder{
+   color: #fff; 
+}
+
+#contact .contact-form input[type="submit"]{
+    padding: 10px 285px;
+}
+
+/*slides section*/
+
+.rounded {
+    width: 267px;
+    margin: auto;
+}
+
+.rounded img{
+    border-radius: 50%;
+    
+}
+
+/*my main images styles*/
+.rounded img:hover{
+    box-shadow: 0px 15px 30px rgb(37, 233, 135);
+} 
+
+/*my initial name logo*/
+.rounded3{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-right: 1%;
+    position: absolute;
+    top: 110px;
+}
+
+/*my initial name logo*/
+.portfolioimages{
+    height: 25px;
+    width: 25px;
+    
+}
+
+/*my initial name logo*/
+.portfolioimages img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: 23px;
+    
+}
+
+.portfolioimages img:hover{
+box-shadow: 0px 15px 30px rgb(37, 233, 135); 
+}
+
+/*my initial name logo*/
+.contactimages img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 8%;
+    
+    
+}
+
+.contactimages img:hover{
+    box-shadow: 0px 15px 30px rgb(37, 233, 135); 
+}
+
+/*my initial name logo*/
+.homeimages img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+.homeimages img:hover{
+box-shadow: 0px 15px 30px rgb(37, 233, 135);
+}
+
+
+/* cv section*/
+#cv {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+       
+}
+
+#cv  h1{
+    margin-top: 2%;
+    color: #290d5c;
+    font-family: 'Faster One', cursive;
+    font-size: 2.3em;
+}
+
+
+#cv  p{
+    margin-top: 1px;
+    font-size: 2.3em;
+    font-family: 'Baloo 2', cursive;
+    color:#290d5c;
+}
+
+
+#cv h2 {
+font-family: 'Faster One', cursive;  
+}
+
+
+/*start of grid section*/
+.container-grid{
+    display: grid;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5px;
+   /* grid-template-rows: 100px 100px 100px 100px 100px;*/
+   grid-row:100px ;
+}
+
+.section1{
+    grid-column: 1;
+    grid-row: 1;
+    background: #b9b6b6;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+    
+}
+
+.section1{
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.6rem;
+}
+
+.section1 img{
+border-radius: 50%;
+width: 120px;
+right: 40px;
+margin-top: 3%;
+
+}
+
+.section2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #ebe8e8;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section2 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section2 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section2 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+.section4{
+    grid-column: 1;
+    grid-row: 2;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section4 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+    
+}
+
+.section4 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+    
+}
+
+
+
+
+.section4 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+    color: #290d5c;
+    
+}
+
+
+
+.section5{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #b9b6b6;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+
+.section5 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section5 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section5 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+.section7{
+    grid-column: 1;
+    grid-row: 3;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section7 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section7 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section7 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+    color: #290d5c;
+}
+.section8{
+    grid-column: 2;
+    grid-row: 3;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section8 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section8 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section8 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+
+/* start footer section, I used the color from color picker */
+.footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    box-sizing: border-box;
+    color:#fff;
+    font-size: 1.3rem;
+    background:#13171a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.mycard{
+    background:#619cc9;
+    padding: 0 40px ;
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-icon{
+    font-size: 30px;
+    background:#fcba03;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    
+}
+
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+}
+
+/* start the footer social media I used the code from the home page */
+.social-icons1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    
+    
+
+}
+
+.social-icons1 a{
+    text-decoration: none;
+    color: #619cc9;
+    transition: 0.2s linear;
+    
+    
+}
+.social-icons1 a:hover{
+    color:#fcba03;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('images/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#fff;
+    
+}
+/* start of challenge topic*/
+.container-1{
+
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 25%;
+    border:2px solid #2ecc71
+}
+
+
+
+    
+    
+    
+
+
+
+
+.banner .navigation-bar{
+    position: relative;
+    padding:2px 0;
+    top: 2%;
+
+}
+
+.banner .navigation-bar .logo {
+    position: relative;
+    margin-left: 10%;
+    font-size: 2.2em;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.banner .navigation-bar .logo a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.5;
+}
+
+.banner .navigation-bar .logo a span{
+    color: #2ecc71;
+}
+
+.banner .navigation-bar .menu-text{
+    margin-right: 10%;
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 5px;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+
+.banner .navigation-bar .menu-text .menu-heading{
+    font-size: 1.2;
+    font-weight: 500;
+    margin-top: 40%;
+    margin-right: 20%;
+    color: #2ecc71;
+}
+
+.banner .navigation-bar .menu-text:hover .menu-heading{
+    color: #fff;
+}
+
+.banner .navigation-bar .menu-text .menu-heading i{
+    font-size: 1.5em;
+    
+}
+
+.banner .info-banner{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    
+}
+
+.banner .info-banner .info-heading-text h2{
+font-size: 1.5em;
+font-weight: 600;
+color: #444;
+font-family: 'Baloo 2', cursive;
+}
+
+.banner .info-banner .info-heading-text h1{
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Baloo 2', cursive;
+    }
+
+.banner .info-banner .buttons{
+    margin-top: 2%;
+
+}
+
+/*.banner .info-banner .buttons a{
+color: #2ecc71;
+font-size: 1.2em;
+border: 2px solid #2ecc71;
+border-radius: 0;
+padding: 8px 13px;
+margin: 0 0.5%;
+font-weight: 550;
+transition: 0.2s ease-in-out;
+
+}
+
+.banner .info-banner .buttons a:nth-child(2),
+.banner .info-banner .buttons a:nth-child(1):hover{
+    background: #290d5c;
+    color:#2ecc71;
+
+}
+*/
+.banner .info-banner .social-icons{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2em;
+
+}
+
+.banner .info-banner .social-icons a{
+    text-decoration: none;
+    color: #2ecc71;
+    transition: 0.2s linear;
+}
+
+.banner .info-banner .social-icons a:hover{
+    color:#fff;
+}
+
+.banner .angle{
+    position: absolute;
+    bottom: 0;
+    border-right: 3px solid #2ecc71;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.banner .angle h2{
+    font-size: 1.2em;
+    margin-top: -15px;
+    margin-right: -10px;
+    color: #2ecc71;
+}
+
+.banner .angle i{
+  font-size: 1.7em;
+  margin-left: 7px;
+  color: #fff;
+}
+
+.banner .nav2{
+    position: fixed;
+    top: 0;
+    background: #444;
+    color: #290d5c;
+    height: 100%;
+    width: 300px;
+    z-index: 99999999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s linear;
+    right: -100%;
+}
+
+.banner .nav2 i{
+    cursor: pointer;
+    color: #2ecc71;
+    font-size: 1.5em;
+    position: absolute;
+    top: 15%;
+    right: 15%;
+}
+
+.banner .nav2 i:hover{
+color: #fff;
+}
+
+.banner .nav2 ul li{
+    list-style: none;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2ecc71;
+}
+
+.banner .nav2 ul li a{
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+.banner .nav2 ul li a:hover{
+    color: #fff;
+}
+
+/*portfolio----------------section*/
+
+:root {
+    font-size: 75.5%;
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Osvald', sans serif;
+    color: #3974b79d;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rcm;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0,1);
+}
+.container {
+    width: 96rem;
+    margin: 2rem auto;
+}
+.gallery-item {
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: all.3s;
+    overflow: hidden;
+    position: relative;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap: 1.5rem;
+    grid-auto-rows: minmax(150px, auto);
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+}
+.middle { 
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+.gallery-item:hover .image {
+    filter: grayscale(1);
+}
+.gallery-item:hover .middle {
+    opacity: 1;
+}
+.gallery-item:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0)
+}
+.text {
+    color:  #290d5c;
+    font-size: 1.1cm;
+    padding: 16px 32px;
+    font-family: 'Faster One', cursive;
+}
+
+/*the idea is to make my gallery look great*/
+.gallery-item:hover{
+    box-shadow: 0px 15px 30px rgb(15, 216, 8);
+}
+
+/*the idea is to make my wellcome look great*/
+.navbar-brand:hover{
+    box-shadow: 0px 10px 15px rgb(37, 233, 135); 
+}
+
+/*contact section*/
+#contact{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)),url('images/cv.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+
+}
+
+#contact .contact-heading{
+   margin-top: 1%;
+}
+
+#contact .contact-heading p{
+    margin-top: 1%;
+    font-size: 1.3em;
+    font-family: 'Baloo 2', cursive;
+}
+
+#contact .contact-heading h1{
+color: #2ecc71;
+font-family: 'Faster One', cursive;
+font-size: 2.3em;
+}
+
+#portfolio .portfolio-section h1{
+color: #2ecc71;
+font-family: 'Faster One', cursive;
+font-size: 2.3em;
+}
+
+#portfolio .portfolio-section p{
+    color: #290d5c;
+    font-family: 'Faster One', cursive;
+    font-size: 2.3em;
+}
+
+.contact{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+#contact .contact-form{
+    margin-top: 3%;
+}
+
+#contact .contact-form input[type="text"],
+#contact .contact-form input[type="email"]{
+    -webkit-appearance:none !important;
+    background: transparent;
+    border:2px solid #fff;
+    padding: 2px 5px;
+    height: 30px;
+    width: 600px;
+    margin-top: 1%;
+    color: #fff;
+    font-size: 1.3em;
+    
+}
+
+#contact .contact-form input[type="text"]::placeholder,
+#contact .contact-form input[type="email"]::placeholder{
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.89em;
+}
+
+#contact .contact-form .subject input{
+    width: 600px;
+}
+
+
+#contact .contact-form textarea{
+    -webkit-appearance:none !important;
+    background: transparent;
+    border:2px solid #fff;
+    padding: 2px 5px;
+    height: 180px;
+    width: 600px;
+    margin-top: 1%;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#contact .contact-form textarea::placeholder{
+   color: #fff; 
+}
+
+#contact .contact-form input[type="submit"]{
+    padding: 10px 285px;
+}
+
+/*slides section*/
+
+.rounded {
+    width: 267px;
+    margin: auto;
+}
+
+.rounded img{
+    border-radius: 50%;
+    
+}
+
+/*my main images styles*/
+.rounded img:hover{
+    box-shadow: 0px 15px 30px rgb(37, 233, 135);
+} 
+
+/*my initial name logo*/
+.rounded3{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-right: 1%;
+    position: absolute;
+    top: 110px;
+}
+
+/*my initial name logo*/
+.portfolioimages{
+    height: 25px;
+    width: 25px;
+    
+}
+
+/*my initial name logo*/
+.portfolioimages img{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: 23px;
+    
+}
+
+.portfolioimages img:hover{
+box-shadow: 0px 15px 30px rgb(37, 233, 135); 
+}
+
+/*my initial name logo*/
+.contactimages img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 8%;
+    
+    
+}
+
+.contactimages img:hover{
+    box-shadow: 0px 15px 30px rgb(37, 233, 135); 
+}
+
+/*my initial name logo*/
+.homeimages img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 8%;
+}
+
+.homeimages img:hover{
+box-shadow: 0px 15px 30px rgb(37, 233, 135);
+}
+
+
+/* cv section*/
+#cv {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+       
+}
+
+#cv  h1{
+    margin-top: 2%;
+    color: #290d5c;
+    font-family: 'Faster One', cursive;
+    font-size: 2.3em;
+}
+
+
+#cv  p{
+    margin-top: 1px;
+    font-size: 2.3em;
+    font-family: 'Baloo 2', cursive;
+    color:#290d5c;
+}
+
+
+#cv h2 {
+font-family: 'Faster One', cursive;  
+}
+
+
+/*start of grid section*/
+.container-grid{
+    display: grid;
+    /*grid-template-columns: auto auto auto;*/
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0.5px;
+   /* grid-template-rows: 100px 100px 100px 100px 100px;*/
+   grid-row:100px ;
+}
+
+.section1{
+    grid-column: 1;
+    grid-row: 1;
+    background: #b9b6b6;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+    
+}
+
+.section1{
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.6rem;
+}
+
+.section1 img{
+border-radius: 50%;
+width: 120px;
+right: 40px;
+margin-top: 3%;
+
+}
+
+.section2{
+    grid-column: 2;
+    grid-row: 1;
+    background-color: #ebe8e8;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section2 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section2 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section2 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+.section4{
+    grid-column: 1;
+    grid-row: 2;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section4 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+    
+}
+
+.section4 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+    
+}
+
+
+
+
+.section4 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+    color: #290d5c;
+    
+}
+
+
+
+.section5{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #b9b6b6;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+
+.section5 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section5 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section5 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+.section7{
+    grid-column: 1;
+    grid-row: 3;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section7 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section7 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section7 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+    color: #290d5c;
+}
+.section8{
+    grid-column: 2;
+    grid-row: 3;
+    background-color:#ebe8e8 ;
+    text-align: center;
+    font-size: 20px;
+    width: 640px;
+    height: 230px;
+    margin: 10px;
+}
+
+.section8 {
+    font-family: 'Baloo 2', cursive;
+    font-size: 0.5em;
+    text-align: left;
+}
+
+.section8 h2{
+    font-family: 'Baloo 2', cursive;
+    font-size: 4.2em;
+    text-align: center;
+}
+
+.section8 h3{
+    font-family: 'Baloo 2', cursive;
+    font-size: 3.1em;
+    text-align: center;
+}
+
+
+/* start footer section, I used the color from color picker */
+.footer{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    box-sizing: border-box;
+    color:#fff;
+    font-size: 1.3rem;
+    background:#13171a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.mycard{
+    background:#619cc9;
+    padding: 0 40px ;
+    margin: 0 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-icon{
+    font-size: 30px;
+    background:#fcba03;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    
+}
+
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+}
+
+/* start the footer social media I used the code from the home page */
+.social-icons1{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6em;
+    
+    
+
+}
+
+.social-icons1 a{
+    text-decoration: none;
+    color: #619cc9;
+    transition: 0.2s linear;
+    
+    
+}
+.social-icons1 a:hover{
+    color:#fcba03;
+}
+
+
+
+
+
