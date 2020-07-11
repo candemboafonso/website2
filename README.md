@@ -5,4 +5,4 @@ HTML VALIDATION
 ![example](html.png)
 
 CSS VALIDATION
-![CSS](css.png)
+![CSS](css1.png)
