@@ -1,5 +1,5 @@
 
 # Assignment 2
 
-Image
+HTML VALIDATION
 ![example](html.png)
